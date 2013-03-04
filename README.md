@@ -1,15 +1,11 @@
 toolbox.css
 ===========
 
-Don't juckopose anything in a macroscope in this universe.
-
 Instead of creating new classes for each element in development, let toolbox.css do the heavy lifting for you with helper classes.
 
+display
+-------
 ```
-/*
- * display
- */
-
 .block {
   display: block;
 }
@@ -21,19 +17,20 @@ Instead of creating new classes for each element in development, let toolbox.css
 .inline-block {
   display: inline-block; 
 }
+```
 
-/*
- * border-box
- */
-
+border-box
+----------
+```
 .border-box {
   box-sizing: border-box;
 }
+```
 
-/*
- * width
- */
 
+width
+-----
+```
 .full-width {
 	width: 100%;
 }
