@@ -3,6 +3,22 @@ toolbox.css
 
 Instead of creating new classes for each element in development, let toolbox.css do the heavy lifting for you with helper classes.
 
+align
+-----
+```
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+```
+
 display
 -------
 ```
