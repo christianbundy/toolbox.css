@@ -19,6 +19,7 @@ display
 }
 ```
 
+
 border-box
 ----------
 ```
@@ -27,6 +28,18 @@ border-box
 }
 ```
 
+float
+-----
+
+```
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+```
 
 width
 -----
