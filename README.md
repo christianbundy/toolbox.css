@@ -1,7 +1,7 @@
 toolbox.css
 ===========
 
-Instead of creating new classes for each element in development, let toolbox.css do the heavy lifting for you with helper classes.
+A small toolbox of HTML5 helper classes for commonly used CSS declarations.
 
 align
 -----
