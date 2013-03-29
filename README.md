@@ -57,6 +57,19 @@ float
 }
 ```
 
+margin
+-----
+
+```
+.push-left {
+  margin-right: auto;
+}
+
+.push-right {
+  margin-left: auto;
+}
+```
+
 width
 -----
 ```
