@@ -19,12 +19,20 @@ align
 }
 ```
 
-border-box
+box-sizing
 ----------
 
 ```css
 .border-box {
 	box-sizing: border-box;
+}
+
+.content-box {
+	box-sizing: content-box;
+}
+
+.padding-box {
+	box-sizing: padding-box;
 }
 ```
 
@@ -46,7 +54,6 @@ display
 .hide {
 	display: none;
 }
-
 	
 ```
 
