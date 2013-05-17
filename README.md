@@ -19,6 +19,15 @@ align
 }
 ```
 
+border-box
+----------
+
+```css
+.border-box {
+	box-sizing: border-box;
+}
+```
+
 display
 -------
 ```css
@@ -33,16 +42,12 @@ display
 .inline-block {
 	display: inline-block; 
 }
-```
 
-
-border-box
-----------
-
-```css
-.border-box {
-	box-sizing: border-box;
+.hide {
+	display: none;
 }
+
+	
 ```
 
 float
@@ -55,6 +60,27 @@ float
 
 .pull-right {
 	float: right;
+}
+```
+
+layers
+------
+
+```css
+.layer-zero {
+z-index: 0;
+}
+
+.layer-one {
+z-index: 1;
+}
+
+.layer-two {
+z-index: 2;
+}
+
+.layer-infinity {
+z-index: 2147483647;
 }
 ```
 
@@ -80,7 +106,7 @@ size
 -----
 ```css
 .full-height {
-	width: 50%;
+	width: 100%;
 }
 
 .full-size {
@@ -90,5 +116,18 @@ size
 
 .full-width {
  	width: 100%;
+}
+```
+
+
+visibility
+----------
+```css
+.invisible {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
 }
 ```
