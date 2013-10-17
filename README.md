@@ -7,15 +7,15 @@ align
 -----
 ```css
 .align-left {
-	text-align: left;
+	text-align: left !important;
 }
 
 .align-center {
-	text-align: center;
+	text-align: center !important;
 }
 
 .align-right {
-	text-align: right;
+	text-align: right !important;
 }
 ```
 
@@ -24,15 +24,15 @@ box-sizing
 
 ```css
 .border-box {
-	box-sizing: border-box;
+	box-sizing: border-box !important;
 }
 
 .content-box {
-	box-sizing: content-box;
+	box-sizing: content-box !important;
 }
 
 .padding-box {
-	box-sizing: padding-box;
+	box-sizing: padding-box !important;
 }
 ```
 
@@ -40,19 +40,19 @@ display
 -------
 ```css
 .block {
-	display: block;
+	display: block !important;
 }
 
 .inline {
-	display: inline;
+	display: inline !important;
 }
 
 .inline-block {
-	display: inline-block; 
+	display: inline-block !important;
 }
 
 .hide {
-	display: none;
+	display: none !important;
 }
 	
 ```
@@ -62,11 +62,11 @@ float
 
 ```css
 .pull-left {
-	float: left;
+	float: left !important;
 }
 
 .pull-right {
-	float: right;
+	float: right !important;
 }
 ```
 
@@ -75,19 +75,19 @@ layers
 
 ```css
 .layer-zero {
-z-index: 0;
+z-index: 0 !important;
 }
 
 .layer-one {
-z-index: 1;
+z-index: 1 !important;
 }
 
 .layer-two {
-z-index: 2;
+z-index: 2 !important;
 }
 
 .layer-infinity {
-z-index: 2147483647;
+z-index: 2147483647 !important;
 }
 ```
 
@@ -96,16 +96,16 @@ margin
 
 ```css
 .push-center {
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 .push-left {
-	margin-right: auto;
+	margin-right: auto !important;
 }
 
 .push-right {
-	margin-left: auto;
+	margin-left: auto !important;
 }
 ```
 
@@ -113,16 +113,16 @@ size
 -----
 ```css
 .full-height {
-	width: 100%;
+	width: 100% !important;
 }
 
 .full-size {
-	height: 100%;
-	width: 100%;
+	height: 100% !important;
+	width: 100% !important;
 }
 
 .full-width {
- 	width: 100%;
+ 	width: 100% !important;
 }
 ```
 
@@ -131,10 +131,10 @@ visibility
 ----------
 ```css
 .invisible {
-	visibility: hidden;
+	visibility: hidden !important;
 }
 
 .visible {
-	visibility: visible;
+	visibility: visible !important;
 }
 ```
